@@ -73,7 +73,7 @@ a {
 #charity-links {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 24px;
     margin-bottom: 0;
 }
