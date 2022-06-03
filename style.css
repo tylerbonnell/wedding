@@ -1,6 +1,5 @@
 html, body {
     font-family: 'Josefin Sans', sans-serif;
-    color: #F3F9FA;
     background-color: #758daa;
     text-align: center;
     margin: 0;
@@ -31,6 +30,7 @@ h1 {
 
 h2 {
     margin-top: 12px;
+    margin-bottom: 24px;
     font-size: 30px;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -52,4 +52,29 @@ h2 {
 
 .section:last-child {
     border-bottom: none;
+}
+
+a, a:visited {
+    color: #cad8e8;
+}
+
+a:hover, html, body {
+    color: #F3F9FA;
+}
+
+a {
+    font-weight: 600;
+    text-decoration: none;
+    transition: .25s;
+}
+
+#charity-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 24px;
+}
+
+#charity-links a {
+    margin: 4px 16px;
 }
