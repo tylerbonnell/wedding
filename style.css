@@ -67,7 +67,7 @@ a:hover, html, body {
 a {
     font-weight: 600;
     text-decoration: none;
-    transition: .25s;
+    transition: color .25s;
 }
 
 #charity-links {
