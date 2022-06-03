@@ -79,5 +79,11 @@ a {
 }
 
 #charity-links a {
-    margin: 4px 16px;
+    margin: 4px 12px;
+}
+
+@media only screen and (max-width: 420px) {
+    #charity-links a {
+       width: 100%;
+    }
 }
