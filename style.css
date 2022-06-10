@@ -56,6 +56,11 @@ h2 {
     padding-bottom: 0;
 }
 
+.section .subtitle {
+    font-size: 15px;
+    line-height: 2;
+}
+
 a, a:visited {
     color: #cad8e8;
 }
