@@ -78,13 +78,13 @@ a {
 #charity-links {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 24px;
     margin-bottom: 0;
 }
 
 #charity-links a {
-    margin: 4px 12px;
+    margin: 8px 16px;
 }
 
 @media only screen and (max-width: 420px) {
